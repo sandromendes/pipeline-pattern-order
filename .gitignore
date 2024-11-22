@@ -1,0 +1,70 @@
+# Ignore arquivos gerados por builds
+bin/
+obj/
+out/
+
+# Cache do usuário em nuvem e arquivos de log
+*.log
+*.userprefs
+
+# Arquivos temporários do sistema
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Configurações locais de IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de pacotes gerados
+*.nupkg
+*.snupkg
+
+# Arquivos de bloqueio de dependências e pacotes
+project.lock.json
+project.fragment.lock.json
+*.nuget/
+
+# Configurações do Visual Studio
+.vs/
+
+# Arquivos do Rider/JetBrains
+*.idea/
+*.dotSettings.user
+
+# Arquivos gerados por ferramentas de publicação
+PublishProfiles/
+
+# Diretórios de publicação e deployment
+wwwroot/
+dist/
+node_modules/
+
+# Configuração de dependências
+packages/
+
+# Arquivos temporários gerados pelo sistema
+*.~*
+~$*
+
+# Arquivos de chave de criptografia
+*.key
+*.pfx
+*.pem
+*.crt
+
+# Logs e relatórios de depuração
+debug.log
+*.pid
+*.seed
+*.coveralls
